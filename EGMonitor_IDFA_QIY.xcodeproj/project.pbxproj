@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17508B601E24C97E004DF6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508B5F1E24C97E004DF6B6 /* main.m */; };
+		17508B691E24C97E004DF6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17508B671E24C97E004DF6B6 /* Main.storyboard */; };
+		17508B6B1E24C97E004DF6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17508B6A1E24C97E004DF6B6 /* Assets.xcassets */; };
+		17508B6E1E24C97E004DF6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17508B6C1E24C97E004DF6B6 /* LaunchScreen.storyboard */; };
+		17508B9A1E24CBB5004DF6B6 /* EGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508B991E24CBB5004DF6B6 /* EGAppDelegate.m */; };
+		17508BAE1E24CBBD004DF6B6 /* EGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508B9D1E24CBBD004DF6B6 /* EGHomePageViewController.m */; };
+		17508BAF1E24CBBD004DF6B6 /* EGHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17508B9E1E24CBBD004DF6B6 /* EGHomePageViewController.xib */; };
+		17508BB01E24CBBD004DF6B6 /* EGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508BA01E24CBBD004DF6B6 /* EGLoginViewController.m */; };
+		17508BB11E24CBBD004DF6B6 /* EGLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17508BA11E24CBBD004DF6B6 /* EGLoginViewController.xib */; };
+		17508BB21E24CBBD004DF6B6 /* EGMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508BA31E24CBBD004DF6B6 /* EGMyViewController.m */; };
+		17508BB31E24CBBD004DF6B6 /* EGMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17508BA41E24CBBD004DF6B6 /* EGMyViewController.xib */; };
+		17508BB41E24CBBD004DF6B6 /* EGNextPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508BA61E24CBBD004DF6B6 /* EGNextPageViewController.m */; };
+		17508BB51E24CBBD004DF6B6 /* EGNextPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17508BA71E24CBBD004DF6B6 /* EGNextPageViewController.xib */; };
+		17508BB61E24CBBD004DF6B6 /* EGTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17508BA91E24CBBD004DF6B6 /* EGTabbarViewController.m */; };
+		17508BB71E24CBBD004DF6B6 /* EGTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17508BAA1E24CBBD004DF6B6 /* EGTabbarViewController.xib */; };
+		17508BB81E24CBBD004DF6B6 /* libEGMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17508BAD1E24CBBD004DF6B6 /* libEGMonitor.a */; };
+		17508BBB1E24CC3C004DF6B6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 17508BBA1E24CC3C004DF6B6 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17508B5B1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGMonitor_IDFA_QIY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17508B5F1E24C97E004DF6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17508B681E24C97E004DF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17508B6A1E24C97E004DF6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17508B6D1E24C97E004DF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17508B6F1E24C97E004DF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17508B981E24CBB5004DF6B6 /* EGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGAppDelegate.h; sourceTree = "<group>"; };
+		17508B991E24CBB5004DF6B6 /* EGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGAppDelegate.m; sourceTree = "<group>"; };
+		17508B9C1E24CBBD004DF6B6 /* EGHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGHomePageViewController.h; sourceTree = "<group>"; };
+		17508B9D1E24CBBD004DF6B6 /* EGHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGHomePageViewController.m; sourceTree = "<group>"; };
+		17508B9E1E24CBBD004DF6B6 /* EGHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGHomePageViewController.xib; sourceTree = "<group>"; };
+		17508B9F1E24CBBD004DF6B6 /* EGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGLoginViewController.h; sourceTree = "<group>"; };
+		17508BA01E24CBBD004DF6B6 /* EGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGLoginViewController.m; sourceTree = "<group>"; };
+		17508BA11E24CBBD004DF6B6 /* EGLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGLoginViewController.xib; sourceTree = "<group>"; };
+		17508BA21E24CBBD004DF6B6 /* EGMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMyViewController.h; sourceTree = "<group>"; };
+		17508BA31E24CBBD004DF6B6 /* EGMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGMyViewController.m; sourceTree = "<group>"; };
+		17508BA41E24CBBD004DF6B6 /* EGMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGMyViewController.xib; sourceTree = "<group>"; };
+		17508BA51E24CBBD004DF6B6 /* EGNextPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGNextPageViewController.h; sourceTree = "<group>"; };
+		17508BA61E24CBBD004DF6B6 /* EGNextPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGNextPageViewController.m; sourceTree = "<group>"; };
+		17508BA71E24CBBD004DF6B6 /* EGNextPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGNextPageViewController.xib; sourceTree = "<group>"; };
+		17508BA81E24CBBD004DF6B6 /* EGTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGTabbarViewController.h; sourceTree = "<group>"; };
+		17508BA91E24CBBD004DF6B6 /* EGTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGTabbarViewController.m; sourceTree = "<group>"; };
+		17508BAA1E24CBBD004DF6B6 /* EGTabbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGTabbarViewController.xib; sourceTree = "<group>"; };
+		17508BAC1E24CBBD004DF6B6 /* EGMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMonitor.h; sourceTree = "<group>"; };
+		17508BAD1E24CBBD004DF6B6 /* libEGMonitor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEGMonitor.a; sourceTree = "<group>"; };
+		17508BBA1E24CC3C004DF6B6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17508B581E24C97E004DF6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17508BBB1E24CC3C004DF6B6 /* libz.tbd in Frameworks */,
+				17508BB81E24CBBD004DF6B6 /* libEGMonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17508B521E24C97E004DF6B6 = {
+			isa = PBXGroup;
+			children = (
+				17508B9B1E24CBBD004DF6B6 /* DemoViewControllers */,
+				17508BAB1E24CBBD004DF6B6 /* EGMonitor */,
+				17508B5D1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY */,
+				17508B5C1E24C97E004DF6B6 /* Products */,
+				17508BB91E24CC3C004DF6B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17508B5C1E24C97E004DF6B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17508B5B1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17508B5D1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY */ = {
+			isa = PBXGroup;
+			children = (
+				17508B981E24CBB5004DF6B6 /* EGAppDelegate.h */,
+				17508B991E24CBB5004DF6B6 /* EGAppDelegate.m */,
+				17508B671E24C97E004DF6B6 /* Main.storyboard */,
+				17508B6A1E24C97E004DF6B6 /* Assets.xcassets */,
+				17508B6C1E24C97E004DF6B6 /* LaunchScreen.storyboard */,
+				17508B6F1E24C97E004DF6B6 /* Info.plist */,
+				17508B5E1E24C97E004DF6B6 /* Supporting Files */,
+			);
+			path = EGMonitor_IDFA_QIY;
+			sourceTree = "<group>";
+		};
+		17508B5E1E24C97E004DF6B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17508B5F1E24C97E004DF6B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17508B9B1E24CBBD004DF6B6 /* DemoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17508B9C1E24CBBD004DF6B6 /* EGHomePageViewController.h */,
+				17508B9D1E24CBBD004DF6B6 /* EGHomePageViewController.m */,
+				17508B9E1E24CBBD004DF6B6 /* EGHomePageViewController.xib */,
+				17508B9F1E24CBBD004DF6B6 /* EGLoginViewController.h */,
+				17508BA01E24CBBD004DF6B6 /* EGLoginViewController.m */,
+				17508BA11E24CBBD004DF6B6 /* EGLoginViewController.xib */,
+				17508BA21E24CBBD004DF6B6 /* EGMyViewController.h */,
+				17508BA31E24CBBD004DF6B6 /* EGMyViewController.m */,
+				17508BA41E24CBBD004DF6B6 /* EGMyViewController.xib */,
+				17508BA51E24CBBD004DF6B6 /* EGNextPageViewController.h */,
+				17508BA61E24CBBD004DF6B6 /* EGNextPageViewController.m */,
+				17508BA71E24CBBD004DF6B6 /* EGNextPageViewController.xib */,
+				17508BA81E24CBBD004DF6B6 /* EGTabbarViewController.h */,
+				17508BA91E24CBBD004DF6B6 /* EGTabbarViewController.m */,
+				17508BAA1E24CBBD004DF6B6 /* EGTabbarViewController.xib */,
+			);
+			path = DemoViewControllers;
+			sourceTree = "<group>";
+		};
+		17508BAB1E24CBBD004DF6B6 /* EGMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				17508BAC1E24CBBD004DF6B6 /* EGMonitor.h */,
+				17508BAD1E24CBBD004DF6B6 /* libEGMonitor.a */,
+			);
+			path = EGMonitor;
+			sourceTree = "<group>";
+		};
+		17508BB91E24CC3C004DF6B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17508BBA1E24CC3C004DF6B6 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17508B5A1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17508B721E24C97E004DF6B6 /* Build configuration list for PBXNativeTarget "EGMonitor_IDFA_QIY" */;
+			buildPhases = (
+				17508B571E24C97E004DF6B6 /* Sources */,
+				17508B581E24C97E004DF6B6 /* Frameworks */,
+				17508B591E24C97E004DF6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGMonitor_IDFA_QIY;
+			productName = EGMonitor_IDFA_QIY;
+			productReference = 17508B5B1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17508B531E24C97E004DF6B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = analysys;
+				TargetAttributes = {
+					17508B5A1E24C97E004DF6B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17508B561E24C97E004DF6B6 /* Build configuration list for PBXProject "EGMonitor_IDFA_QIY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17508B521E24C97E004DF6B6;
+			productRefGroup = 17508B5C1E24C97E004DF6B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17508B5A1E24C97E004DF6B6 /* EGMonitor_IDFA_QIY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17508B591E24C97E004DF6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17508BB31E24CBBD004DF6B6 /* EGMyViewController.xib in Resources */,
+				17508B6E1E24C97E004DF6B6 /* LaunchScreen.storyboard in Resources */,
+				17508BB71E24CBBD004DF6B6 /* EGTabbarViewController.xib in Resources */,
+				17508BB11E24CBBD004DF6B6 /* EGLoginViewController.xib in Resources */,
+				17508B6B1E24C97E004DF6B6 /* Assets.xcassets in Resources */,
+				17508BB51E24CBBD004DF6B6 /* EGNextPageViewController.xib in Resources */,
+				17508BAF1E24CBBD004DF6B6 /* EGHomePageViewController.xib in Resources */,
+				17508B691E24C97E004DF6B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17508B571E24C97E004DF6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17508BB61E24CBBD004DF6B6 /* EGTabbarViewController.m in Sources */,
+				17508BB21E24CBBD004DF6B6 /* EGMyViewController.m in Sources */,
+				17508B9A1E24CBB5004DF6B6 /* EGAppDelegate.m in Sources */,
+				17508BB41E24CBBD004DF6B6 /* EGNextPageViewController.m in Sources */,
+				17508BAE1E24CBBD004DF6B6 /* EGHomePageViewController.m in Sources */,
+				17508BB01E24CBBD004DF6B6 /* EGLoginViewController.m in Sources */,
+				17508B601E24C97E004DF6B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17508B671E24C97E004DF6B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17508B681E24C97E004DF6B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17508B6C1E24C97E004DF6B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17508B6D1E24C97E004DF6B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17508B701E24C97E004DF6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17508B711E24C97E004DF6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17508B731E24C97E004DF6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EGMonitor_IDFA_QIY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EGMonitor",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.analysys.EGMonitor-IDFA-QIY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17508B741E24C97E004DF6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EGMonitor_IDFA_QIY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EGMonitor",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.analysys.EGMonitor-IDFA-QIY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17508B561E24C97E004DF6B6 /* Build configuration list for PBXProject "EGMonitor_IDFA_QIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17508B701E24C97E004DF6B6 /* Debug */,
+				17508B711E24C97E004DF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17508B721E24C97E004DF6B6 /* Build configuration list for PBXNativeTarget "EGMonitor_IDFA_QIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17508B731E24C97E004DF6B6 /* Debug */,
+				17508B741E24C97E004DF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17508B531E24C97E004DF6B6 /* Project object */;
+}
