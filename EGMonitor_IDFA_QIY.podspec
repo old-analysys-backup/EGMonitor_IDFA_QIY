@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 	spec.name         = 'EGMonitor_IDFA_QIY'
-  spec.version      = '3.0.4.7'
+  spec.version      = '3.0.4.7.1'
   spec.summary      = '易观方舟iOS版本SDK，爱奇艺定制版'
   spec.homepage     = 'https://github.com/analysys/EGMonitor_IDFA_QIY'
   spec.license      = { :type => 'MIT' }
